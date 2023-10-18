@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+body{
+    font-family: 'Arial';
+    background-color: black; /* Set the background color to black */
+    background-image: url('b.jpg'); /* Add your background image URL here */
+    background-size: cover; /* Cover the entire background area */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    background-attachment: fixed; /* Fixed background so it doesn't scroll with the content */
+    color: white; /* Set text color to white */
+}
+
+#checkout-form {
+    width: 40%;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 5%;
+    height:500px;
+}
+
+.form-group {
+    padding: 15px;
+}
+
+h1{
+    font-family:'Dela Gothic One';
+    margin:40px auto auto auto;
+    width:80%;
+    text-align: center;
+}
+#checkout-form label {
+    font-size: 1.5rem;
+    font-family:'Barlow Condensed';
+    padding-right:20px;
+}
+
+input[type="number"],
+input[type="text"],
+input[type="tel"],
+select,
+textarea{
+    border-radius:50px;
+    width:15vw;
+    padding:10px;
+}
+
+input[type="submit"]{
+    float:right;
+    margin-right:40px;
+    border-radius:50px;
+    background-color: black;
+    color:white;
+    padding:10px;
+    font-family:'Barlow Condensed';
+    transition:0.5s;
+    cursor:pointer;
+    font-size:1rem;
+}
+input[type="submit"]:hover{
+    float:right;
+    margin-right:40px;
+    border-radius:50px;
+    background-color: white;
+    color:black;
+    padding:10px;
+    font-family:'Barlow Condensed';
+    transition:0.5s;
+    cursor:pointer;
+    font-size:1rem;
+}
